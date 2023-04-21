@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSE-110 Lab 2: Example Meeting Minutes</title>
+    <link rel="icon" type="image/x-icon" href="task_icon.png">
+    <meta name = "Author" content="Pramodya Rajapakse">
+    <meta name = "Description" content="Lab 2: HTML and DevTools">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <main>
+        <header>
+            <h1>Task List Website First Design</h1>
+            <h2>Today's Topic: Designing the Layout of the Website</h2>
+            <h3>Date: April 14th, 2023</h3>
+
+            <nav>
+                <a href="#last_meeting">Last Meeting</a> |
+                <a href="#new_business">New Business</a> |
+                <a href="#questions">Questions</a> |
+                <a href="#samp_form">Form</a>
+            </nav>
+
+            <p>Attendance List:</p>
+            <ul>
+                <li>Pramodya Rajapakse</li>
+                <li>John Smith</li>
+                <li>George Washington</li>
+                <li>Woodrow Wilson</li>
+            </ul>
+            <p><b>Today's Agenda</b></p>
+            <ol>
+                <li>Figure out the theme/mascot of our wesbite</li>
+                <li>Decide the layout of all the elements</li>
+            </ol>
+            
+        </header>
+
+        <div id="last_meeting">
+            <section>
+                <h3>Unfinished Things from Last Meeting</h3>
+                <ol>
+                    <li>Who will be the primary developers?</li>
+                    <li>When will the team meetings be moving forward?</li>
+                </ol>
+                <p>1. Everyone will take turns being <span>developers</span> so that everyone can get some experience and determine where their strengths lie. Over time, certain people might naturally take on specific roles, but it's best if everyone at least gets a chance at doing some serious developing.</p>
+                <p>2. Going forward, meetings will be on <strong>Saturdays from 3-4pm</strong>. Location will be determined on the date. If you are unable to come in-person, you must let us know <em>24 hours</em> in advance.</p>
+            </section>
+        </div>
+
+        <div id="new_business">
+            <section>
+                <h3>New Business for this Meeting</h3>
+                <img src="businessman-drawing-diagram-on-whiteboard-in-meeting-with-colleague-at-workplace-PNAF01127.jpeg" alt="whiteboard_image" width="300" height="200">
+                <br>
+                <p>Here is an image of the whiteboard taken at this meeting (<i>stock image</i>)</p>
+
+                <details>
+                    <summary>Video recording of meeting:</summary>
+                    <p>Stock footage found online.</p>
+                </details>
+                <video width="300" height="250" controls>
+                    <source src="Free stock footage business meeting (No copyright audio and footage).mp4" type="video/mp4">
+                    Video not supported.
+                </video>
+
+                <br>
+                <details>
+                    <summary>Audio recording of meeting:</summary>
+                    <p>Audio taken from stock footage found online.</p>
+                </details>
+
+                <audio controls>
+                    <source src="Free stock footage business meeting (No copyright audio and footage).mp3 " type="audio/mpeg">
+                    Audio not supported.
+                </audio>
+                <br>
+
+
+            </section>
+        </div>
+
+        <div id="questions">
+            <section>
+                <h3>Miscellaneous Comments/Questions/Concerns</h3>
+            </section>
+        </div>
+
+        <hr>
+
+        <div id="samp_form">
+            <section>
+                <h3>Example Form</h3>
+                <form>
+                    <label for="first_name">First Name:</label><br>
+                    <input type="text" id="first_name" name="first_name"><br>
+                    <label for="last_name">Last Name</label><br>
+                    <input type="text" name="last_name" id="last_name">
+
+                    <br>
+
+                    <input type="checkbox" id="read" name = "read">
+                    <label for="read">I read through the meeting minutes.</label>
+                    <label for="date_read">Today's Date:</label>
+                    <input type="date" id="date_read" name="date_read">
+                    
+                    <fieldset>
+                    <p>My preferred meal for the next meeting:</p>
+                    <input type="radio" id="pizza" name="lunch">
+                    <label for="pizza">Pizza</label><br>
+                    <input type="radio" id="sandwich" name="lunch">
+                    <label for="sandwich">Sandwiches</label><br>
+                    <input type="radio" id="burrito" name="lunch">
+                    <label for="burrito">Burritos</label><br>
+
+                    <label for="fav_food">Choose your favorite cuisine from the list:</label>
+                    <input list="cuisines" name="fav_food" id="fav_food">
+                    <datalist id="cuisines">
+                        <option value="Chinese"></option>
+                        <option value="Mexican"></option>
+                        <option value="Italian"></option>
+                        <option value="Indian"></option>
+                    </datalist>
+                    <br>
+
+                    <label for="meal_time">Would you prefer to meet for lunch or dinner:</label>
+                    <select name="meal_time" id="meal_time">
+                        <option value="lunch">Lunch</option>
+                        <option value="dinner">Dinner</option>
+                    </select>
+                    <br>
+
+                    <label for="allergies">Please list any dietary allergies you have:</label><br>
+                    <textarea name="allergies" id="allergies" cols="30" rows="10"></textarea>
+                    <br>
+                    <button type="button">Submit your reponse.</button>
+                    </fieldset>
+                
+                </form>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <p>Author: Pramodya Rajapakse</p>
+    </footer>
+  </body>
+</html>
