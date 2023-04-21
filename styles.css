@@ -1,8 +1,17 @@
-/* This is a CSS Comment */
+/* styles.css - comment */
 h1 {
     color: black;
 }
 
-h3 {
-    color: rgb(128, 128, 128)
+#todays_topic {
+    color: #355;
+}
+
+#today_date {
+    color: hsl(217, 100, 41);
+}
+
+#agenda {
+    color: rgb(255, 244, 36);
+    background-color: darkslategrey;
 }
