@@ -1,4 +1,8 @@
 /* This is a CSS Comment */
 h1 {
-    color: aquamarine;
+    color: black;
+}
+
+h3 {
+    color: rgb(128, 128, 128)
 }
