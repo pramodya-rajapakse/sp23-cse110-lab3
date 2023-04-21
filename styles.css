@@ -4,6 +4,7 @@
 * {
     font-family: 'Share Tech Mono', monospace;;
 }
+
 h1 {
     color: black;
 }
@@ -31,20 +32,20 @@ h1 {
     border-width: thick;
     border-radius: 10px;
 
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 7.5pt;
+    margin-bottom: 7.5pt;
+    margin-left: 7.5pt;
+    margin-right: 7.5pt;
 
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
 
-    width: 300px;
-    height: 250px;
-    max-width: 900px;
-    min-width: 300px;
+    width: 90mm;
+    height: 60mm;
+    max-width: 90mm;
+    min-width: 30mm;
 
     position: static;
 
@@ -119,4 +120,22 @@ input[type="text"] {
 
 .last_meeting h3 {
     background-color: beige;
+    font-size: 3ex;
+}
+
+summary ~ p {
+   background-color: gainsboro;
+   font-size: 1.2rem;
+}
+
+p + p {
+    color: darkslateblue;
+}
+
+section > h3 {
+    text-decoration: underline;
+}
+
+input[type="checkbox"] + label {
+    color:indianred;
 }
