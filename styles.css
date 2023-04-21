@@ -51,3 +51,13 @@ h1 {
 #audio_id {
     margin: auto;
 }
+
+nav {
+    color: darkcyan;
+    display: inline-block;
+}
+
+#attendance_list {
+    color: cadetblue;
+    display: block;
+}
