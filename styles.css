@@ -104,3 +104,19 @@ form {
         background-color: cornflowerblue;
     }
 }
+
+#last_meeting_header, #new_business_header {
+    color: #355;
+}
+
+.last_meeting {
+    color:slategrey;
+}
+
+input[type="text"] {
+    background-color:lightsteelblue;
+}
+
+.last_meeting h3 {
+    background-color: beige;
+}
