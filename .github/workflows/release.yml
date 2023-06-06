@@ -8,6 +8,10 @@ jobs:
   changelog:
     runs-on: ubuntu-latest
     
+    strategy:
+      matrix:
+        nodeversion: [16]
+    
     steps:
       - uses: actions/checkout@v2
       
